@@ -21,7 +21,7 @@ def get_db():
     finally:
         db.close()
 
-# Raw SQL
+""" Raw SQL
 import psycopg2
 from psycopg2.extras import RealDictCursor
 import time
@@ -38,3 +38,4 @@ while True:
         print("Connecting to database faild")
         print("Error: ", error)
         time.sleep(2)
+"""
