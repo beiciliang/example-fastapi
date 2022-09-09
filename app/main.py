@@ -30,7 +30,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Hello World"}
+    return {"message": "Successfully deployed from CI/CD pipeline!"}
 
 
 """ Test if squlalchemy is working
